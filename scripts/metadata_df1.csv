@@ -1,0 +1,62 @@
+source,file_path,class,frames_filename,frame_count
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas+(44).gif,COVID-19,POCUS1,41
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas+(45).gif,COVID-19,POCUS2,21
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas-Day+2.gif,COVID-19,POCUS3,83
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas-Day+4.gif,COVID-19,POCUS4,40
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu-Atlas-pneumonia2.gif,Bacterial pneumonia,POCUS5,40
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu-Atlas-pneumonia.gif,Bacterial pneumonia,POCUS6,59
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg-Atlas-lungcurtain.gif,regular,POCUS7,60
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg-Atlas-lungcurtain.gif,regular,POCUS8,60
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg-Atlas.gif,regular,POCUS9,59
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg-Atlas-alines.gif,regular,POCUS10,60
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas-+(43).gif,COVID-19,POCUS11,39
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas-Day+1.gif,COVID-19,POCUS12,33
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas-Day+3.gif,COVID-19,POCUS13,40
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg-Atlas-alines.gif,regular,POCUS14,60
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu-Atlas-pneumonia2.gif,Bacterial pneumonia,POCUS15,40
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov-Atlas-suspectedCovid.mp4,COVID-19,POCUS16,100
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/pneu-radiopaeda.mp4,Bacterial pneumonia,POCUS17,223
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg-NormalLungs.mp4,regular,POCUS18,131
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_Image_181602_trimmed_crop.mp4,regular,POCUS19,374
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_Image_181739_trimmed_crop.mp4,regular,POCUS20,104
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_Image_182106_crop.mp4,regular,POCUS21,206
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_Image_182340_crop.mp4,regular,POCUS22,309
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat1Image_132943.mpeg,regular,POCUS23,280
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat1Image_133043.mpeg,regular,POCUS24,246
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat1Image_133138.mpeg,regular,POCUS25,262
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat1Image_133232.mpeg,regular,POCUS26,200
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat1Image_133327.mpeg,regular,POCUS27,218
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat1Image_133410.mpeg,regular,POCUS28,183
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat2Image_133824.mpeg,regular,POCUS29,273
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat2Image_133952.mpeg,regular,POCUS30,254
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat2Image_134138.mpeg,regular,POCUS31,236
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat2Image_134240.mpeg,regular,POCUS32,254
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat2Image_134348.mpeg,regular,POCUS33,208
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat2Image_134441.mpeg,regular,POCUS34,215
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat3Image_134711.mpeg,regular,POCUS35,217
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat3Image_134811.mpeg,regular,POCUS36,207
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat3Image_134904.mpeg,regular,POCUS37,247
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat3Image_135026.mpeg,regular,POCUS38,279
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat3Image_135128.mpeg,regular,POCUS39,209
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat3Image_135215.mpeg,regular,POCUS40,318
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat4Image_135904.mpeg,regular,POCUS41,266
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat4Image_140024.mpeg,regular,POCUS42,438
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat4Image_140238.mpeg,regular,POCUS43,215
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat4Image_140434.mpeg,regular,POCUS44,323
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat4Image_140606.mpeg,regular,POCUS45,218
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_pat4Image_140705.mpeg,regular,POCUS46,266
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_Basal-pneumonia-RUQ_crop.mp4,Bacterial pneumonia,POCUS47,27
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_liftl_pneucase3_clip1.mp4,regular,POCUS48,24
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_liftl_pneu_case3_clip5.mp4,Bacterial pneumonia,POCUS49,26
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_liftl_pneu_case3_clip4.mp4,Bacterial pneumonia,POCUS50,41
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_liftl_pneu_case3_clip3.mp4,Bacterial pneumonia,POCUS51,25
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_Pneumonia-LITFL-Ultrasound_crop.mp4,Bacterial pneumonia,POCUS52,27
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_from_article_rippey.mp4,Bacterial pneumonia,POCUS53,42
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Pneu_basalpneumonia_liftle_case1.mp4,Bacterial pneumonia,POCUS54,42
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Vir_liftl_H1N1_case2_clip1.mp4,Viral pneumonia,POCUS55,36
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Reg_liftl_case3_clip2.mp4,regular,POCUS56,32
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov_combatting_Image1.mp4,COVID-19,POCUS57,113
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov_combatting_Image2.mp4,COVID-19,POCUS58,191
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov_combatting_Image3.mp4,COVID-19,POCUS59,174
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov_combatting_image4.mp4,COVID-19,POCUS60,137
+POCUS,../covid19_ultrasound/data/pocus_videos/convex/Cov_combatting_Image5.mp4,COVID-19,POCUS61,182
