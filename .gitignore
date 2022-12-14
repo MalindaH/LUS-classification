@@ -5,3 +5,5 @@ USCL/*
 !USCL/checkpoint/
 scripts/__pycache__/
 scripts/plots/
+data/*
+!data/video_frames/

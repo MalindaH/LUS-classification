@@ -20,7 +20,7 @@ device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 print(device)
 # device = 'cpu'
 
-model_path_number = 2
+model_path_number = 3
 batch_size = 16
 epochs = 5
 
@@ -158,13 +158,13 @@ def eval_test(model):
         for j in range(outputs.shape[0]):
             ans = torch.argmax(outputs[j]).cpu().numpy()
             correct_ans = label_idx[j].item()
-            print("ans:",ans, correct_ans)
+            # print("ans:",ans, correct_ans)
             if ans == correct_ans:
                 gtAcc.append(1)
             else:
                 gtAcc.append(0)
         avgGTAcc = float(sum(gtAcc))/len(gtAcc)
-        model.train()
+    model.train()
 
     return avgGTAcc
 

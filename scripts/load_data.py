@@ -34,9 +34,10 @@ covidus_folder_cropped = '../COVID-US/data/video/cropped/'
 # covidus_metadata = '../COVID-US/utils/video_metadata.csv'
 covidus_metadata = '../COVID-US/utils/video_metadata_cropped.txt'
 
+toSave = False
 metadata_df = pd.read_csv('metadata_df1.csv')
 video_frames_path = '../data/video_frames/'
-video_features_path = '../data/video_features2/'
+video_features_path = '../data/video_features/'
 max_video_len = 250 # set max len to 250 frames: cut off or pad to make them all the same length
 
 classes = ["COVID-19", "pneumonia", "regular"]
@@ -80,11 +81,8 @@ class USCLExtractor(nn.Module):
     def forward(self, x):
         x = self.features(x)
         return x
-
 # nn_uscl = USCLExtractor().to(device)
 # print(nn_uscl)
-
-
 
 class FeatureExtractor():
     def __init__(self, network="USCL"):
@@ -97,6 +95,8 @@ class FeatureExtractor():
         return self.extractor(img)
 
 uscl_extractor = FeatureExtractor("USCL")
+
+
 
 class ImageDataset(Dataset):
     def __init__(self, metadata_df, transform=None):
@@ -122,11 +122,9 @@ class ImageDataset(Dataset):
         while j < max_video_len:
             images = torch.cat((images, torch.zeros((1,512)).to(device)), 0) # 250, 512
             j += 1
-        # label = self.metadata_df.iloc[idx]['class']
-        # label_idx = classes_idx[label]
-        torch.save(images, video_features_path+self.metadata_df.iloc[idx]['frames_filename']+'.pt')
+        if toSave:
+            torch.save(images, video_features_path+self.metadata_df.iloc[idx]['frames_filename']+'.pt')
         video_lens[idx] = video_len
-        # return images, label_idx, video_len
         return images
 
 image_transform = transforms.Compose([
@@ -149,7 +147,8 @@ print(video_lens) # [ 41.,  21.,  83.,  40.,  40.,  59.,  60.,  60.,  59.,  60.,
         # 247., 250., 209., 250., 250., 250., 215., 250., 218., 250.,  27.,  24.,
         #  26.,  41.,  25.,  27.,  42.,  42.,  36.,  32., 113., 191., 174., 137.,
         # 182.]
-torch.save(video_lens, video_features_path+'video_lens.pt')
+if toSave:
+    torch.save(video_lens, video_features_path+'video_lens.pt')
 exit()
 
 # video_lens = torch.load(video_features_path+'video_lens.pt')
