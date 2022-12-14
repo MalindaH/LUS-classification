@@ -1,5 +1,6 @@
 'Published -20210112T164653Z-001.zip'
 COVID-US/
 covid19_ultrasound/
-USCL/
+USCL/*
+!USCL/checkpoint/
 scripts/__pycache__/
